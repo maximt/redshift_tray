@@ -1,5 +1,5 @@
 # redshift_tray
-Simple PyQt5 GUI for redshift.
+Simple PyQt5 GUI for redshift to control display color temperature and brightness.
 
 Main window.
 
