@@ -21,7 +21,7 @@ class DisplayUtils:
 
     @staticmethod
     def get_used_screen_area() -> QRect:
-        ''' Get screen area except panels and dockbars '''
+        ''' Get screen area except panels and dockbars. Qt5 is buggy, use Gtk instead '''
         try:
             import gi
             from gi.repository import Gdk
